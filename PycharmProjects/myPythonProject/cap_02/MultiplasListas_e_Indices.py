@@ -5,7 +5,7 @@ departamentos = []
 resposta = "S"
 while resposta == "S":
     equipamentos.append(input("Equipamento: "))
-    valores.append(input("Valor: "))
+    valores.append(float(input("Valor: ")))
     seriais.append(input("Número Serial: "))
     departamentos.append(input("Departamento: "))
     resposta = input("Digite \"S\" para continuar: ").upper()
