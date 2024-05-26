@@ -1,4 +1,4 @@
-from myPythonProject.cap_03.IdentificacaoDeFuncoes import *
+from myPythonProject.cap_3.funcoes.IdentificacaoDeFuncoes import *
 
 minhaLista = []
 print("Preenchendo")
