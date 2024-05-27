@@ -1,4 +1,4 @@
-from myPythonProject.cap_04.manipulação_de_dicionário_de_dados.Funcoes import *
+from myPythonProject.cap_05.funcoes.Funcoes_Dicionarios import *
 
 usuarios = {}
 opcao = perguntar()

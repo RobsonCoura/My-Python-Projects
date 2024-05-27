@@ -14,6 +14,6 @@ def inserir(dicionario):
 
 
 def salvar(dicionario):
-    with open("bd.txt", "a") as arquivo:
+    with open("../../cap_04/manipulação_de_dicionário_de_dados/bd.txt", "a") as arquivo:
         for chave, valor in dicionario.items():
             arquivo.write(chave + ":" + str(valor))
